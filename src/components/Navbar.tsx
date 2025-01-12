@@ -3,11 +3,11 @@ import React from 'react';
 const Navbar = () => {
   return (
     <div className="navbar bg-base-100">
-      <div className="flex-1 flex justify-center">
+      <div className="flex-1">
         <button className="btn btn-ghost text-xl">
           Logo
         </button>
-        <div className="form-control">
+        <div className="form-control ml-4">
           <input type="text" placeholder="Search" className="input input-bordered w-24 md:w-auto" />
         </div>
       </div>
