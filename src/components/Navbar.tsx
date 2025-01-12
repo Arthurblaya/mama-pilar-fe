@@ -7,7 +7,9 @@ const Navbar = () => {
         <button className="btn btn-ghost text-xl">
           Logo
         </button>
-        <div className="form-control ml-4">
+      </div>
+      <div className="flex-1 flex justify-center">
+        <div className="form-control">
           <input type="text" placeholder="Search" className="input input-bordered w-24 md:w-auto" />
         </div>
       </div>
