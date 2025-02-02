@@ -10,9 +10,10 @@ async function getProducts(): Promise<Product[]> {
   const response = await fetch(`${process.env.API_URL}/products`, {
     headers: new Headers({
       'x-api-key': apiKey
-    })
+    }),
+    cache: "no-store"
   });
-
+  
   if (!response.ok) {
     throw new Error(`HTTP error! status: ${response.status}`);
   }
@@ -25,10 +26,9 @@ export default async function Home() {
   return (
     <div className="min-h-screen p-4">
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-        {products.map((product) => <div key={product._id}>
-          <ProductCard product={product} />
-        </div>          
-        )}
+        {products.map((product) => (
+          <ProductCard key={product._id} product={product} />
+        ))}
       </div>
     </div>
   );
