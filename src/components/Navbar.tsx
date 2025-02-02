@@ -5,12 +5,12 @@ const Navbar = () => {
     <div className="navbar bg-base-100">
       <div className="flex-none">
         <button className="btn btn-ghost text-xl">
-          Logo
+          Mama Pilar
         </button>
       </div>
       <div className="flex-1 flex justify-center">
         <div className="form-control">
-          <input type="text" placeholder="Search" className="input input-bordered w-24 md:w-auto" />
+          <input type="text" placeholder="Search" className="input input-bordered w-48 md:w-96" />
         </div>
       </div>
       <div className="flex-none gap-2">
