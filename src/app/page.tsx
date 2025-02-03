@@ -1,5 +1,4 @@
 import { Product } from '@/types/Product';
-import ProductCard from '@/components/ProductCard';
 
 async function getProducts(): Promise<Product[]> {
   const apiKey = process.env.API_KEY;
@@ -22,14 +21,9 @@ async function getProducts(): Promise<Product[]> {
 
 export default async function Home() {
   const products = await getProducts();
-
+  console.log(products);
   return (
     <div className="min-h-screen p-4">
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-        {products.map((product) => (
-          <ProductCard key={product._id} product={product} />
-        ))}
-      </div>
     </div>
   );
 }
