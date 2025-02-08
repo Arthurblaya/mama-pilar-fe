@@ -13,9 +13,9 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en bg-primary">
+    <html lang="en" className="bg-primary">
       <body className="antialiased">
-        <div className="flex flex-col min-h-screen">
+        <div className="flex flex-col min-h-screen bg-base-100">
           <div className="flex-1">
             <Header/>
             {children}

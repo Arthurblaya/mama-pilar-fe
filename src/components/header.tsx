@@ -17,7 +17,7 @@ export default function Header() {
         </Link>
         <input
           type="text"
-          placeholder="Cerca..."
+          placeholder="Cerca... 🔍"
           className="input input-bordered input-secondary mr-4 w-full max-w-80"
         />
         <svg
