@@ -4,7 +4,7 @@ import Logo from "../../public/logo-mapi.svg";
 
 export default function Header() {
   return (
-    <header className="bg-primary">
+    <header className="bg-primary pt-safe">
       <div className="container mx-auto flex max-w-screen-lg items-center justify-between">
         <Link href="/">
           <Image
