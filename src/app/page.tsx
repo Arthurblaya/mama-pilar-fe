@@ -1,6 +1,6 @@
 export default function Home() {
   return (
-    <div className="m-4 mt-8 flex min-h-screen flex-col items-center justify-start bg-base-100 sm:mt-4 sm:justify-center">
+    <div className="flex min-h-screen flex-col items-center justify-start bg-base-100 p-4 pt-8 sm:pt-4 sm:justify-center">
       <div className="prose">
         <h1>¡Benvingut a la Carnisseria Mama Pilar!</h1>
         <p>
