@@ -4,7 +4,7 @@ export default function Home() {
       <div className="prose">
         <h1>¡Benvingut a la Carnisseria Mama Pilar!</h1>
         <p>
-          Des de fa anys, seleccionem les millors carns amb un compromís ferm
+          Des de fa 25 anys, seleccionem les millors carns amb un compromís ferm
           amb la qualitat i la proximitat. Gaudeix de productes frescos i un
           servei proper que ens distingeix.
         </p>
